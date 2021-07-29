@@ -29,13 +29,13 @@ body{
   .App-logo {
     animation: App-logo-spin infinite 30s linear;
   }
-  .house {
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-    transform: scale(1);
-    animation: pulse 2s infinite;
-  }
-}
 
+}
+.house {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  /* transform: scale(1); */
+  /* animation: pulse 2s infinite; */
+}
 .App-header {
   background-color: #000000;
   min-height: 100vh;
@@ -75,3 +75,9 @@ body{
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
+
+.med-on-hover { transition: all .1s ease-in-out; }
+.med-on-hover:hover { transform: scale(1.1); }
+
+.large-on-hover { transition: all .1s ease-in-out; }
+.large-on-hover:hover { transform: scale(1.7); }
